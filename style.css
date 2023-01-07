@@ -1,0 +1,17 @@
+
+
+
+.navber{
+    background-color: rgb(221, 99, 18);
+    background-size: 15%;
+}
+.navber ul li{list-style-type:none;
+            display: inline-block;
+            margin: 0 20px;
+
+}    
+
+.navber ul li a{
+
+    color: beige;
+}
