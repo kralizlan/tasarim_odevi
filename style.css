@@ -1,6 +1,6 @@
 *{margin: 0px;
 padding: 0px;}
-.navber ul li{
+.navbar ul li{
             list-style-type:none;
             display: inline-block;
             padding:  25px;
@@ -12,17 +12,17 @@ padding: 0px;}
 
 }
 
-.navber ul li a{
+.navbar ul li a{
     text-decoration: none;
     color: beige;
     padding: 5px;
     transition: color 1s, background-color 1s;
 }
-.navber ul li a:hover{
+.navbar ul li a:hover{
     background-color: cyan;
     color: black;
 }
-.navber{
+.navbar{
     text-align: center;
 }
 .anafoto{
@@ -31,17 +31,74 @@ width: 100%;
 height: 100%;
 
 }
-h1{
+.content{
+    width: 100%;
     position: absolute;
-    top: 45%;
-    left: 39%;
-    font-style: bold;
-    font-size: 50px;
+    top: 40%;
+    color: rgb(249, 244, 244);
+    text-align: center;
 }
-h3{
-    position: absolute;
-    top: 51%;
+
+.content h1{
     font-style: bold;
-    left: 43%;
-    font-size: 30px;
+    font-size: 60px;
+    
+}
+.content p{
+margin: 20px auto;
+}
+.btn{
+width: 200px;
+
+height: 50px;
+padding: 50px, 0;
+margin: 20px;
+background-color: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+}
+.btn:hover{
+    color:black;
+}
+.form-basligi{
+    text-align: center;
+    font-size: 40px;
+    color: #554994;
+
+}
+.iletisim-formu{
+width: 520px;
+margin: auto;
+}
+.iletisim-formu label,
+.iletisim-formu input,
+.iletisim-formu select{
+display: block;
+width: 100%;
+margin-top: 35px;
+
+}
+.btn-2{
+width: 200px;
+height: 50px;
+padding: 50px, 0;
+margin: 20px;
+background-color: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+}
+
+.btn-2:hover{
+    color:black;
+}
+.btn-3{
+
+    width: 200px;
+    height: 50px;
+    padding: 50px, 0;
+    margin: 20px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+.btn-3:hover{
+    color:black;
 }
