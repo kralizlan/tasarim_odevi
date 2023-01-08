@@ -102,3 +102,27 @@ color: rgb(255, 255, 255);
 .btn-3:hover{
     color:black;
 }
+.baslik{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: #554994;
+}
+.maps{
+   padding-top: 10px; 
+   text-align: center;
+}
+.btn-4{
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.btn-4:hover{
+    color:black;
+}
+.son
+{
+    text-align: center;
+}
